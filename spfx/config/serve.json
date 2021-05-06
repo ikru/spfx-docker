@@ -1,7 +1,7 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
   "port": 4321,
-  "hostname": "0.0.0.0",
+  "hostname": "spfx",
   "https": true,
   "initialPage": "https://localhost:5432/workbench",
   "api": {
