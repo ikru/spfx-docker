@@ -13,9 +13,9 @@
 - If needed to connect to container shell
     - docker-compose exec "spfx-debug" bash
 
-## Using yo @microsoft/sharepoint
+## Using yo @microsoft/sharepoint --skip-install
 - Simple web part project is already added, so I'm not going to use yo @microsoft/sharepoint anymore.
-- However, if you are planning to use yo @microsoft/sharepoint some folders may need chmod if getting permission denied error.
+- However, if you are planning to use yo @microsoft/sharepoint --skip-install some folders may need chmod if getting permission denied error.
 - See sample run in dockerfile or example
 
 ## Docker configuration
