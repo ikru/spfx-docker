@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  spfx-debug:
+    build: 
+      context: .
+      target: spfx-debug
+    container_name: spfx-debug
+    hostname: spfx
+    volumes:
+      - ./:/app    
+    ports:
+      - "4321:4321"
+      - "5432:5432"
+      - "35729:35729"
+    tty: true
