@@ -14,6 +14,12 @@
             "problemMatcher": []
         },
         {
+            "label": "docker-run-bash",
+            "type": "shell",
+            "command": "docker-compose exec \"spfx-debug\" bash",
+            "problemMatcher": []
+        },
+        {
             "label": "spfx-gulp-serve",
             "type": "shell",
             "command": "./scripts/spfx-gulp-serve.sh",
